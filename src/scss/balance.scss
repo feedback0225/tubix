@@ -1,0 +1,29 @@
+.balance {
+  display: flex;
+  min-width: 244px;
+  height: 52px;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 23px;
+  &__icon {
+    width: 20px;
+    margin-left: 20px;
+  }
+  &__text {
+    padding-left: 8px;
+  }
+  &__count {
+    padding-left: 14px;
+    color: #21e021;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 1202px) {
+  .balance {
+    margin-left: 10px;
+  }
+}

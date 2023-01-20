@@ -1,0 +1,64 @@
+<div id="signup" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <span class="popup__title">Регистрация</span>
+      <button data-close type="button" class="popup__close">
+        <svg class="icon-24">
+          <use xlink:href="img/sprite.svg#close-big" />
+        </svg>
+      </button>
+      <form class="popup__form signup">
+        <div class="popup__form-item">
+          <label for="name">Никнейм </label>
+          <input type="text" id="name" name="name" placeholder="Придумайте никнейм" />
+        </div>
+        <div class="popup__form-item">
+          <label for="email">Ваша почта или телефон </label>
+          <input type="text" id="email" name="email" placeholder="Введите почту или телефон" />
+        </div>
+        <div class="popup__form-item">
+          <label for="password">Пароль </label>
+          <input type="password" id="password" name="password" placeholder="Придумайте пароль" />
+          <button class="form__viewpass" type="button">
+            <svg class="icon-20">
+              <use xlink:href="img/sprite.svg#close-eye" />
+            </svg>
+          </button>
+        </div>
+        <div class="popup__form-item">
+          <label for="password">Подтвердите пароль </label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="password"
+            placeholder="Введите пароль еще раз"
+          />
+          <button class="form__viewpass" type="button">
+            <svg class="icon-20">
+              <use xlink:href="img/sprite.svg#close-eye" />
+            </svg>
+          </button>
+        </div>
+        <div class="popup__form-accept">
+          <div class="checkbox">
+            <input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" />
+            <label for="c_1" class="checkbox__label"
+              ><span class="checkbox__text"
+                >Я согласен с <a href="#">пользовательским соглашением</a> и
+                <a href="#">политикой конфиденциальности</a></span
+              ></label
+            >
+          </div>
+        </div>
+        <button class="popup__submit btn btn-green" disabled type="submit">Продолжить</button>
+      </form>
+      <hr />
+      <div class="popup__footer">
+        <div class="popup__footer-block">
+          <span>Есть аккаунт?</span>
+          <a data-popup="#login" href="#">Войти</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

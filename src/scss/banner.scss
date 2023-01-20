@@ -1,0 +1,45 @@
+.vid-info {
+  display: flex;
+  padding: 16px;
+  gap: 32px;
+  &__view {
+  }
+  &__img {
+    border-radius: 20px;
+  }
+  &__info {
+    height: 100%;
+    padding-top: 16px;
+    & h2 {
+      margin-top: 15px;
+      font-size: 4.25rem;
+      letter-spacing: -0.04em;
+      font-weight: 700;
+    }
+    & p {
+      margin-top: 24px;
+      line-height: 24px;
+      letter-spacing: -0.04em;
+      width: 500px;
+    }
+  }
+  &__category {
+    padding: 4px 12px;
+    font-size: 0.75rem;
+  }
+  &__about {
+    display: flex;
+    justify-content: space-between;
+    width: 435px;
+    margin-top: 15px;
+    letter-spacing: -0.04em;
+    &-item {
+      display: flex;
+      align-items: center;
+    }
+    &-text {
+      margin-left: 8px;
+      font-size: 0.75rem;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.contacts {
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+    &-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 500;
+      font-size: 14px;
+      & a {
+        color: #21e021;
+        transition: 0.5s all;
+        &:hover {
+          color: #21e021c3;
+        }
+      }
+    }
+  }
+  & hr {
+    width: 100%;
+    opacity: 0.12;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 24px;
+  }
+  &__feedback {
+    margin-top: 24px;
+    & span {
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+  & textarea {
+    border-radius: 24px;
+    min-height: 216px;
+    resize: none;
+  }
+  &__form {
+    & button {
+      margin: 40px 0;
+      padding: 14px 50px;
+    }
+  }
+}

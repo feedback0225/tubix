@@ -1,0 +1,80 @@
+.profile {
+  &__view {
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+    &-info {
+      & span {
+        font-weight: 500;
+        font-size: 12px;
+        opacity: 0.6;
+        &:first-child {
+          font-weight: 600;
+          font-size: 16px;
+          opacity: 1;
+        }
+      }
+    }
+    & svg.profile-ico {
+      &:first-child {
+        width: 60px;
+        height: 60px;
+        padding: 30px;
+        background: linear-gradient(274.3deg, #f7791d 9.64%, #ffe328 98.24%);
+        box-shadow: 0px 2px 0px #ff8125, 0px 6px 5px rgba(0, 0, 0, 0.13),
+          0px 16px 26px rgba(255, 129, 37, 0.38);
+        border-radius: 800px;
+      }
+    }
+  }
+  &__download {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #5c8aff;
+    margin: 8px 0;
+  }
+  & form {
+    width: 490px;
+    margin-bottom: 100px;
+    & .signup__form-item {
+      max-width: 400px;
+    }
+  }
+  & hr {
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.12;
+    margin: 40px 0;
+    max-width: 400px;
+  }
+  & a {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    margin-bottom: 52px;
+  }
+  & .checkbox {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    width: calc((100% - 88px) / 3);
+    &:nth-child(3n-1) {
+      margin-left: 44px;
+      margin-right: 44px;
+    }
+  }
+  & h5 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}

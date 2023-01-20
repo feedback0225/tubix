@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230118003707" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="theme-color" content="#ffffff" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+	<div class="wrapper asyncImage" data-src="img/background.jpg">
+		<header class="header auth">
+			<div class="header__container __container">
+				<div class="head-left">
+					<img class="header__logo" src="img/logo.svg" alt="logo" />
+				</div>
+				<div class="search">
+					<form class="search__form">
+						<svg class="search__icon">
+							<use xlink:href="img/sprite.svg#search" />
+						</svg>
+						<input type="text" id="box" placeholder="Поиск" class="search__box" />
+						<svg class="icon-24 close">
+							<use xlink:href="img/sprite.svg#close-big" />
+						</svg>
+					</form>
+					<div class="search__results">
+						<ul class="search__results-list">
+							<li class="search__results-item">Танцы</li>
+							<li class="search__results-item">Танцы на ТНТ</li>
+							<li class="search__results-item">Танцы со звездами</li>
+							<li class="search__results-item">Танцевальная музыка</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="header__buttons">
+					<button class="btn btn-blue">Загрузить</button>
+				</div>
+				<div class="balance btn-blur">
+					<svg class="balance__icon icon-20" class="icon-16">
+						<use xlink:href="img/sprite.svg#wallet" />
+					</svg>
+					<span class="balance__text">Ваш баланс:</span>
+					<span class="balance__count">2 784₽</span>
+				</div>
+
+				<div class="header__avatar">
+					<div class="header__avatar-blur blur"></div>
+					<svg class="icon-24 avatar-arrow">
+						<use xlink:href="img/sprite.svg#down" />
+					</svg>
+					<img class="header__avatar-img" src="img/avatar.jpg" data-rjs="2" alt="avatar" />
+					<div class="menu-nav">
+						<ul class="menu-nav__list">
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#profile-menu" />
+									</svg>
+									<span>Профиль</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#wallet-svg" />
+									</svg>
+									<span>Кошелек</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#profile-check" />
+									</svg>
+									<span>Подписки</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#video-menu" />
+									</svg>
+									<span>Плейлисты</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#calender-menu" />
+									</svg>
+									<span>История</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#setting-menu" />
+									</svg>
+									<span>Настройки</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#faq-menu" />
+									</svg>
+									<span>Справка</a>
+								</a>
+							</li>
+							<hr />
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#logout-menu" />
+									</svg>
+									<span>Выйти</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="content__wrapper __container">
+			<aside class="left-container">
+				<div class="menu blur">
+					<ul class="menu__categories">
+						<li class="menu__elem menu__categories-item active">
+							<a href="../index.html">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#main" />
+								</svg>
+								<span class="menu__title">Главная</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item earn">
+							<a href="../pocket.html" class="btn btn-green btn-earn">
+								<img src="img/money.svg" alt="money" />
+								<span class="menu__title">Заработать</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<img src="img/fire.svg" alt="fire" />
+								<span class="menu__title">ТОП Видео</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#star" />
+								</svg>
+								<span class="menu__title">Подписки</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#clock" />
+								</svg>
+								<span class="menu__title">Последние</span>
+							</a>
+						</li>
+					</ul>
+					<hr class="menu__categories-separator" />
+					<ul class="menu__categories">
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#music" />
+								</svg>
+								<span class="menu__title">Клипы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#news" />
+								</svg>
+								<span class="menu__title">Новости</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#games" />
+								</svg>
+								<span class="menu__title">Игры</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#films" />
+								</svg>
+								<span class="menu__title">Фильмы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#serials" />
+								</svg>
+								<span class="menu__title">Сериалы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#faq" />
+								</svg>
+								<span class="menu__title">FAQ</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#contacts" />
+								</svg>
+								<span class="menu__title">Контакты</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#question" />
+								</svg>
+								<span class="menu__title">О нас</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<main class="page">
+				<section class="channel section">
+					<h4>Искусство созидать</h4>
+					<div class="channel__image"></div>
+					<div class="toggle-categories">
+						<button id="myVideos" class="signup__submit btn btn-blue active" type="submit">
+							Видео пользователя
+						</button>
+						<button id="myChannels" class="signup__submit btn btn-blue not-active" type="submit">
+							Каналы пользователя
+						</button>
+						<button id="subscribes" class="signup__submit btn btn-blue not-active" type="submit">
+							Подписки
+						</button>
+						<button id="aboutChannel" class="signup__submit btn btn-blue not-active" type="submit">
+							О канале
+						</button>
+					</div>
+					<div class="channel__content myVideos active">
+						<div class="my-channel__category">
+							<div class="my-channel__header">
+								<div class="my-channel__title">
+									<h5>Путешествия</h5>
+								</div>
+							</div>
+							<div class="my-channel__videos"></div>
+						</div>
+						<div class="my-channel__category">
+							<div class="my-channel__header">
+								<div class="my-channel__title">
+									<h5>Музыка</h5>
+								</div>
+							</div>
+							<div class="my-channel__videos"></div>
+						</div>
+					</div>
+					<div class="channel__content myChannels">
+						<div class="channel__list">
+							<div class="channel__item">
+								<img src="img/channel.jpg" alt="channel" />
+								<span>Музыкальные клипы</span>
+								<span>445 тыс. подписчиков</span>
+								<button class="btn-transparent">Подписаться</button>
+							</div>
+							<div class="channel__item">
+								<img src="img/channel.jpg" alt="channel" />
+								<span>Музыкальные клипы</span>
+								<span>445 тыс. подписчиков</span>
+								<button class="btn-transparent">Подписаться</button>
+							</div>
+							<div class="channel__item">
+								<img src="img/channel.jpg" alt="channel" />
+								<span>Музыкальные клипы</span>
+								<span>445 тыс. подписчиков</span>
+								<button class="btn-transparent">Подписаться</button>
+							</div>
+						</div>
+					</div>
+					<div class="channel__content subscribes">
+						<div class="channel__list">
+							<div class="channel__item">
+								<img src="img/channel.jpg" alt="channel" />
+								<span>Музыкальные клипы</span>
+								<span>445 тыс. подписчиков</span>
+								<button class="btn-transparent">Подписаться</button>
+							</div>
+							<div class="channel__item">
+								<img src="img/channel.jpg" alt="channel" />
+								<span>Музыкальные клипы</span>
+								<span>445 тыс. подписчиков</span>
+								<button class="btn-transparent">Подписаться</button>
+							</div>
+							<div class="channel__item">
+								<img src="img/channel.jpg" alt="channel" />
+								<span>Музыкальные клипы</span>
+								<span>445 тыс. подписчиков</span>
+								<button class="btn-transparent">Подписаться</button>
+							</div>
+						</div>
+					</div>
+					<div class="channel__content aboutChannel">
+						<div class="channel__about">
+							<div class="channel__description">
+								<h5>Описание</h5>
+								<span>Арт простым языком. Учимся создавать уникальные вещи простыми методами. Более 10 000
+									учеников!</span>
+							</div>
+							<hr />
+							<div class="channel__stat">
+								<h5>Статистика</h5>
+								<div class="channel__description-item">
+									<span>
+										<svg class="icon-20">
+											<use xlink:href="img/sprite.svg#calendar" />
+										</svg>
+									</span>
+									<span>Дата регистрации:</span>
+									<span>12.06.2021</span>
+								</div>
+								<div class="channel__description-item">
+									<span>
+										<svg class="icon-20">
+											<use xlink:href="img/sprite.svg#open-eye" />
+										</svg>
+									</span>
+									<span>Количество просмотров:</span>
+									<span>1 211 949</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer class="footer">
+			<div class="footer__container __container"></div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20230118003707"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230118003707" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="theme-color" content="#ffffff" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+	<div class="wrapper asyncImage" data-src="img/background.jpg">
+		<header class="header auth">
+			<div class="header__container __container">
+				<div class="head-left">
+					<img class="header__logo" src="img/logo.svg" alt="logo" />
+				</div>
+				<div class="search">
+					<form class="search__form">
+						<svg class="search__icon">
+							<use xlink:href="img/sprite.svg#search" />
+						</svg>
+						<input type="text" id="box" placeholder="Поиск" class="search__box" />
+						<svg class="icon-24 close">
+							<use xlink:href="img/sprite.svg#close-big" />
+						</svg>
+					</form>
+					<div class="search__results">
+						<ul class="search__results-list">
+							<li class="search__results-item">Танцы</li>
+							<li class="search__results-item">Танцы на ТНТ</li>
+							<li class="search__results-item">Танцы со звездами</li>
+							<li class="search__results-item">Танцевальная музыка</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="header__buttons">
+					<button class="btn btn-blue">Загрузить</button>
+				</div>
+				<div class="balance btn-blur">
+					<svg class="balance__icon icon-20" class="icon-16">
+						<use xlink:href="img/sprite.svg#wallet" />
+					</svg>
+					<span class="balance__text">Ваш баланс:</span>
+					<span class="balance__count">2 784₽</span>
+				</div>
+
+				<div class="header__avatar">
+					<div class="header__avatar-blur blur"></div>
+					<svg class="icon-24 avatar-arrow">
+						<use xlink:href="img/sprite.svg#down" />
+					</svg>
+					<img class="header__avatar-img" src="img/avatar.jpg" data-rjs="2" alt="avatar" />
+					<div class="menu-nav">
+						<ul class="menu-nav__list">
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#profile-menu" />
+									</svg>
+									<span>Профиль</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#wallet-svg" />
+									</svg>
+									<span>Кошелек</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#profile-check" />
+									</svg>
+									<span>Подписки</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#video-menu" />
+									</svg>
+									<span>Плейлисты</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#calender-menu" />
+									</svg>
+									<span>История</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#setting-menu" />
+									</svg>
+									<span>Настройки</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#faq-menu" />
+									</svg>
+									<span>Справка</a>
+								</a>
+							</li>
+							<hr />
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#logout-menu" />
+									</svg>
+									<span>Выйти</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="content__wrapper __container">
+			<aside class="left-container">
+				<div class="menu blur">
+					<ul class="menu__categories">
+						<li class="menu__elem menu__categories-item active">
+							<a href="../index.html">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#main" />
+								</svg>
+								<span class="menu__title">Главная</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item earn">
+							<a href="../pocket.html" class="btn btn-green btn-earn">
+								<img src="img/money.svg" alt="money" />
+								<span class="menu__title">Заработать</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<img src="img/fire.svg" alt="fire" />
+								<span class="menu__title">ТОП Видео</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#star" />
+								</svg>
+								<span class="menu__title">Подписки</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#clock" />
+								</svg>
+								<span class="menu__title">Последние</span>
+							</a>
+						</li>
+					</ul>
+					<hr class="menu__categories-separator" />
+					<ul class="menu__categories">
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#music" />
+								</svg>
+								<span class="menu__title">Клипы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#news" />
+								</svg>
+								<span class="menu__title">Новости</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#games" />
+								</svg>
+								<span class="menu__title">Игры</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#films" />
+								</svg>
+								<span class="menu__title">Фильмы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#serials" />
+								</svg>
+								<span class="menu__title">Сериалы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#faq" />
+								</svg>
+								<span class="menu__title">FAQ</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#contacts" />
+								</svg>
+								<span class="menu__title">Контакты</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#question" />
+								</svg>
+								<span class="menu__title">О нас</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<main class="page">
+				<section class="earn section">
+					<div class="earn__header">
+						<h4>Зарабатывай</h4>
+						<div class="earn__button">
+							<span>Реф ссылка (10%)</span>
+							<a href="#" class="copy__component">
+								<span class="copy__text">https:\\ referal-link\links\tubix.com</span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" id="copyText">
+									<path fill="url(#a)" fill-rule="evenodd" d="M7.5 10.833V10c0-1.378 1.122-2.5 2.5-2.5h.833V4.723a.556.556 0 0 0-.556-.556H4.723a.556.556 0 0 0-.556.556v5.554c0 .307.249.556.556.556H7.5Zm0 1.667H4.723A2.225 2.225 0 0 1 2.5 10.277V4.723c0-1.226.997-2.223 2.223-2.223h5.554c1.226 0 2.223.997 2.223 2.223V7.5H15c1.378 0 2.5 1.122 2.5 2.5v5c0 1.378-1.122 2.5-2.5 2.5h-5A2.503 2.503 0 0 1 7.5 15v-2.5ZM9.167 10c0-.459.374-.833.833-.833h5c.46 0 .834.374.834.833v5c0 .46-.374.834-.834.834h-5A.835.835 0 0 1 9.167 15v-5Z" clip-rule="evenodd" />
+									<mask id="b" width="16" height="16" x="2" y="2" maskUnits="userSpaceOnUse" style="mask-type: alpha">
+										<path fill="#fff" fill-rule="evenodd" d="M7.5 10.833V10c0-1.378 1.122-2.5 2.5-2.5h.833V4.723a.556.556 0 0 0-.556-.556H4.723a.556.556 0 0 0-.556.556v5.554c0 .307.249.556.556.556H7.5Zm0 1.667H4.723A2.225 2.225 0 0 1 2.5 10.277V4.723c0-1.226.997-2.223 2.223-2.223h5.554c1.226 0 2.223.997 2.223 2.223V7.5H15c1.378 0 2.5 1.122 2.5 2.5v5c0 1.378-1.122 2.5-2.5 2.5h-5A2.503 2.503 0 0 1 7.5 15v-2.5ZM9.167 10c0-.459.374-.833.833-.833h5c.46 0 .834.374.834.833v5c0 .46-.374.834-.834.834h-5A.835.835 0 0 1 9.167 15v-5Z" clip-rule="evenodd" />
+									</mask>
+									<defs>
+										<linearGradient id="a" x1="8.948" x2="9.081" y1=".833" y2="17.499" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#FCFCFE" />
+											<stop offset="1" stop-color="#E5EAFA" />
+										</linearGradient>
+									</defs>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<p>
+						Сознание дает экзистенциальный психоанализ, что вызвало развитие функционализма и
+						сравнительно-психологических исследований поведения. Конформность неумеренно притягивает
+						методологический код, о чем и писал А.Маслоу в "Мотивация и личность". Сознание дает
+						экзистенциальный психоанализ, что вызвало развитие функционализма и сравнительно-психологических
+						исследований поведения. Конформность неумеренно притягивает методологический код, о чем и писал
+						А.Маслоу в "Мотивация и личность". Сознание дает экзистенциальный психоанализ, что вызвало
+						развитие функционализма и сравнительно-психологических исследований. Конформность неумеренно
+						притягивает методологический код, о чем и писал А.Маслоу в "Мотивация и личность".
+					</p>
+					<div class="earn__header">
+						<h5>Расценки за действия</h5>
+						<div class="earn__header-button">
+							<svg class="icon-20">
+								<use xlink:href="img/sprite.svg#danger" />
+							</svg>
+							<span>Комиссия нашего сервиса составляет 10%</span>
+						</div>
+					</div>
+					<div class="earn__table green">
+						<table>
+							<thead>
+								<tr>
+									<th>За загрузку видео</th>
+									<th>За просмотр видео</th>
+									<th>За лайк</th>
+									<th>За комментарий</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="bordered"></tr>
+								<tr>
+									<td>$ 10</td>
+									<td>$ 0.1</td>
+									<td>$ 0.01</td>
+									<td>$ 1</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="earn__header">
+						<h5>Заработок</h5>
+						<div class="earn__header-button">
+							<svg class="icon-20">
+								<use xlink:href="img/sprite.svg#danger" />
+							</svg>
+							<span>Лимит на добавление видео - до 5 в день</span>
+						</div>
+					</div>
+					<div class="earn__table">
+						<table>
+							<thead>
+								<tr>
+									<th>Дата</th>
+									<th>Загружено видео</th>
+									<th>Просмотрено видео</th>
+									<th>Лайков</th>
+									<th>Комментариев</th>
+									<th>Всего заработано💰</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>10.10.2022</td>
+									<td>2</td>
+									<td>2</td>
+									<td>12 794</td>
+									<td>169</td>
+									<td>$5 216</td>
+								</tr>
+								<tr>
+									<td>10.10.2022</td>
+									<td>2</td>
+									<td>2</td>
+									<td>12 794</td>
+									<td>169</td>
+									<td>$5 216</td>
+								</tr>
+								<tr>
+									<td>10.10.2022</td>
+									<td>2</td>
+									<td>2</td>
+									<td>12 794</td>
+									<td>169</td>
+									<td>$5 216</td>
+								</tr>
+								<tr>
+									<td>10.10.2022</td>
+									<td>2</td>
+									<td>2</td>
+									<td>12 794</td>
+									<td>169</td>
+									<td>$5 216</td>
+								</tr>
+								<tr>
+									<td>10.10.2022</td>
+									<td>2</td>
+									<td>2</td>
+									<td>12 794</td>
+									<td>169</td>
+									<td>$5 216</td>
+								</tr>
+								<tr>
+									<td>10.10.2022</td>
+									<td>2</td>
+									<td>2</td>
+									<td>12 794</td>
+									<td>169</td>
+									<td>$5 216</td>
+								</tr>
+								<tr>
+									<td>10.10.2022</td>
+									<td>2</td>
+									<td>2</td>
+									<td>12 794</td>
+									<td>169</td>
+									<td>$5 216</td>
+								</tr>
+								<tr>
+									<td>10.10.2022</td>
+									<td>2</td>
+									<td>2</td>
+									<td>12 794</td>
+									<td>169</td>
+									<td>$5 216</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer class="footer">
+			<div class="footer__container __container"></div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20230118003707"></script>
+
+</body>
+
+</html>

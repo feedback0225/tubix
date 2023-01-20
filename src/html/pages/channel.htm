@@ -1,0 +1,160 @@
+<section class="channel section">
+  <h4>Главный по выставкам</h4>
+  <div class="channel__image"></div>
+  <div class="toggle-categories">
+    <button id="myVideos" class="signup__submit btn btn-blue active" type="submit">
+      Мои видео
+    </button>
+    <button id="createLogo" class="signup__submit btn btn-blue not-active" type="submit">
+      Добавить канал
+    </button>
+    <button id="downloadVideo" class="signup__submit btn btn-blue not-active" type="submit">
+      Добавить видео
+    </button>
+    <button id="myChannels" class="signup__submit btn btn-blue not-active" type="submit">
+      Мои каналы
+    </button>
+    <button id="subscribes" class="signup__submit btn btn-blue not-active" type="submit">
+      Подписки
+    </button>
+    <button id="aboutChannel" class="signup__submit btn btn-blue not-active" type="submit">
+      О канале
+    </button>
+  </div>
+  <div class="channel__content myVideos active">
+    <div class="my-channel__category">
+      <div class="my-channel__header">
+        <div class="my-channel__title">
+          <h5>Путешествия</h5>
+        </div>
+      </div>
+      <div class="my-channel__videos"></div>
+    </div>
+    <div class="my-channel__category">
+      <div class="my-channel__header">
+        <div class="my-channel__title">
+          <h5>Музыка</h5>
+        </div>
+      </div>
+      <div class="my-channel__videos"></div>
+    </div>
+  </div>
+  <div class="channel__content createLogo">
+    <form action="" class="form">
+      <label for="" class="form__container" id="upload-container">
+        <div class="create-channel-label">
+          <svg class="icon-20">
+            <use xlink:href="img/sprite.svg#download" />
+          </svg>
+          <span>Нажмите, чтобы загрузить фото для вашего баннера, или перетащите сюда.</span>
+          <span
+            >Чтобы канал выглядел привлекательно на всех устройствах, советуем загрузить изображение
+            размером не менее 2048 x 1152 пикс. Размер файла – не более 6 МБ.</span
+          >
+        </div>
+        <input class="form__file" id="upload-files" type="file" accept="image/*" multiple />
+      </label>
+      <div id="files-list-container" class="form__files-container"></div>
+    </form>
+    <form action="" class="create-channel-form">
+      <div class="signup__form-item">
+        <label for="name">Название </label>
+        <input id="name" name="name" placeholder="Введите название канала" />
+      </div>
+      <div class="signup__form-item">
+        <label for="text">Описание </label>
+        <textarea autocomplete="off" name="text" placeholder="Введите описание"></textarea>
+      </div>
+      <div class="create-logo">
+        <a href="#">+ Логотип канала</a>
+      </div>
+      <button class="btn btn-green" data-popup="#contacts-success" disabled>Создать канал</button>
+    </form>
+  </div>
+  <div class="channel__content downloadVideo">
+    <div class="download-video">
+      <svg class="icon-20">
+        <use xlink:href="img/sprite.svg#download" />
+      </svg>
+      <span>Загрузите свое первое видео</span>
+      <button class="btn btn-green" type="submit">Добавить видео</button>
+    </div>
+  </div>
+  <div class="channel__content myChannels">
+    <div class="channel__list">
+      <div class="channel__item my-channel">
+        <img src="img/channel.jpg" alt="channel" />
+        <span>Музыкальные клипы</span>
+        <span>445 тыс. подписчиков</span>
+        <button class="btn-transparent">Подписаться</button>
+      </div>
+      <div class="channel__item my-channel">
+        <img src="img/channel.jpg" alt="channel" />
+        <span>Музыкальные клипы</span>
+        <span>445 тыс. подписчиков</span>
+        <button class="btn-transparent">Подписаться</button>
+      </div>
+      <div class="channel__item my-channel">
+        <img src="img/channel.jpg" alt="channel" />
+        <span>Музыкальные клипы</span>
+        <span>445 тыс. подписчиков</span>
+        <button class="btn-transparent">Подписаться</button>
+      </div>
+    </div>
+  </div>
+  <div class="channel__content subscribes">
+    <div class="channel__list">
+      <div class="channel__item my-channel">
+        <img src="img/channel.jpg" alt="channel" />
+        <span>Музыкальные клипы</span>
+        <span>445 тыс. подписчиков</span>
+        <button class="btn-transparent">Подписаться</button>
+      </div>
+      <div class="channel__item my-channel">
+        <img src="img/channel.jpg" alt="channel" />
+        <span>Музыкальные клипы</span>
+        <span>445 тыс. подписчиков</span>
+        <button class="btn-transparent">Подписаться</button>
+      </div>
+      <div class="channel__item my-channel">
+        <img src="img/channel.jpg" alt="channel" />
+        <span>Музыкальные клипы</span>
+        <span>445 тыс. подписчиков</span>
+        <button class="btn-transparent">Подписаться</button>
+      </div>
+    </div>
+  </div>
+  <div class="channel__content aboutChannel">
+    <div class="channel__about">
+      <div class="channel__description">
+        <h5>Описание</h5>
+        <span
+          >Арт простым языком. Учимся создавать уникальные вещи простыми методами. Более 10 000
+          учеников!</span
+        >
+      </div>
+      <hr />
+      <div class="channel__stat">
+        <h5>Статистика</h5>
+        <div class="channel__description-item">
+          <span>
+            <svg class="icon-20">
+              <use xlink:href="img/sprite.svg#calendar" />
+            </svg>
+          </span>
+          <span>Дата регистрации:</span>
+          <span>12.06.2021</span>
+        </div>
+        <div class="channel__description-item">
+          <span>
+            <svg class="icon-20">
+              <use xlink:href="img/sprite.svg#open-eye" />
+            </svg>
+          </span>
+          <span>Количество просмотров:</span>
+          <span>1 211 949</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

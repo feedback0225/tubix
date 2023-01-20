@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230118003707" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="theme-color" content="#ffffff" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+	<div class="wrapper asyncImage" data-src="img/background.jpg">
+		<header class="header auth">
+			<div class="header__container __container">
+				<div class="head-left">
+					<img class="header__logo" src="img/logo.svg" alt="logo" />
+				</div>
+				<div class="search">
+					<form class="search__form">
+						<svg class="search__icon">
+							<use xlink:href="img/sprite.svg#search" />
+						</svg>
+						<input type="text" id="box" placeholder="Поиск" class="search__box" />
+						<svg class="icon-24 close">
+							<use xlink:href="img/sprite.svg#close-big" />
+						</svg>
+					</form>
+					<div class="search__results">
+						<ul class="search__results-list">
+							<li class="search__results-item">Танцы</li>
+							<li class="search__results-item">Танцы на ТНТ</li>
+							<li class="search__results-item">Танцы со звездами</li>
+							<li class="search__results-item">Танцевальная музыка</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="header__buttons">
+					<button class="btn btn-blue">Загрузить</button>
+				</div>
+				<div class="balance btn-blur">
+					<svg class="balance__icon icon-20" class="icon-16">
+						<use xlink:href="img/sprite.svg#wallet" />
+					</svg>
+					<span class="balance__text">Ваш баланс:</span>
+					<span class="balance__count">2 784₽</span>
+				</div>
+
+				<div class="header__avatar">
+					<div class="header__avatar-blur blur"></div>
+					<svg class="icon-24 avatar-arrow">
+						<use xlink:href="img/sprite.svg#down" />
+					</svg>
+					<img class="header__avatar-img" src="img/avatar.jpg" data-rjs="2" alt="avatar" />
+					<div class="menu-nav">
+						<ul class="menu-nav__list">
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#profile-menu" />
+									</svg>
+									<span>Профиль</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#wallet-svg" />
+									</svg>
+									<span>Кошелек</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#profile-check" />
+									</svg>
+									<span>Подписки</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#video-menu" />
+									</svg>
+									<span>Плейлисты</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#calender-menu" />
+									</svg>
+									<span>История</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#setting-menu" />
+									</svg>
+									<span>Настройки</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#faq-menu" />
+									</svg>
+									<span>Справка</a>
+								</a>
+							</li>
+							<hr />
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#logout-menu" />
+									</svg>
+									<span>Выйти</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="content__wrapper __container">
+			<aside class="left-container">
+				<div class="menu blur">
+					<ul class="menu__categories">
+						<li class="menu__elem menu__categories-item active">
+							<a href="../index.html">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#main" />
+								</svg>
+								<span class="menu__title">Главная</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item earn">
+							<a href="../pocket.html" class="btn btn-green btn-earn">
+								<img src="img/money.svg" alt="money" />
+								<span class="menu__title">Заработать</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<img src="img/fire.svg" alt="fire" />
+								<span class="menu__title">ТОП Видео</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#star" />
+								</svg>
+								<span class="menu__title">Подписки</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#clock" />
+								</svg>
+								<span class="menu__title">Последние</span>
+							</a>
+						</li>
+					</ul>
+					<hr class="menu__categories-separator" />
+					<ul class="menu__categories">
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#music" />
+								</svg>
+								<span class="menu__title">Клипы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#news" />
+								</svg>
+								<span class="menu__title">Новости</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#games" />
+								</svg>
+								<span class="menu__title">Игры</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#films" />
+								</svg>
+								<span class="menu__title">Фильмы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#serials" />
+								</svg>
+								<span class="menu__title">Сериалы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#faq" />
+								</svg>
+								<span class="menu__title">FAQ</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#contacts" />
+								</svg>
+								<span class="menu__title">Контакты</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#question" />
+								</svg>
+								<span class="menu__title">О нас</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<main class="page"><button class="btn btn-orange" data-popup="#signup">Регистрация</button>
+				<button class="btn btn-trnsprnt-green" data-popup="#login">Войти</button>
+				<button class="signup__submit btn btn-blue" type="submit" data-popup="#login-success">
+					Зарегистрироваться (success)
+				</button>
+				<button class="signup__submit btn btn-blue" type="submit" data-popup="#login-error">
+					Зарегистрироваться (error)
+				</button>
+				<button class="btn btn-green" type="submit" data-popup="#contacts-success">Отправить</button>
+				<button class="signup__submit btn btn-blue" type="submit" data-popup="#unsub">Вы подписаны</button>
+				<a href="#" role="button" class="btn-error" data-popup="#complaint">
+					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18">
+						<path d="M10.625 4.834a.625.625 0 1 0-1.25 0v5a.625.625 0 0 0 1.25 0v-5Z" />
+						<path fill-rule="evenodd" d="M11.949.456a4.792 4.792 0 0 0-3.898 0C7.275.802 6.649 1.463 6.002 2.38c-.645.913-1.367 2.163-2.3 3.78l-.034.058C2.735 7.833 2.013 9.084 1.545 10.1c-.47 1.018-.73 1.891-.64 2.736a4.792 4.792 0 0 0 1.948 3.375c.687.5 1.574.71 2.69.813 1.113.102 2.557.102 4.423.102h.068c1.866 0 3.31 0 4.423-.102 1.116-.102 2.003-.314 2.69-.813a4.792 4.792 0 0 0 1.949-3.376c.088-.844-.172-1.717-.641-2.735-.468-1.015-1.19-2.266-2.123-3.882l-.034-.059c-.933-1.616-1.655-2.866-2.3-3.779-.647-.916-1.273-1.577-2.05-1.923Zm-3.39 1.142a3.542 3.542 0 0 1 2.882 0c.46.205.926.64 1.536 1.502.608.86 1.302 2.061 2.255 3.713.954 1.651 1.647 2.853 2.088 3.81.442.959.585 1.579.532 2.08a3.542 3.542 0 0 1-1.44 2.496c-.409.297-1.017.483-2.07.58-1.048.096-2.435.096-4.342.096-1.907 0-3.294 0-4.343-.097-1.052-.096-1.66-.282-2.069-.58a3.542 3.542 0 0 1-1.44-2.494c-.053-.502.09-1.122.532-2.082.441-.956 1.134-2.158 2.088-3.81.953-1.65 1.647-2.851 2.255-3.712.61-.863 1.075-1.297 1.536-1.502Z" clip-rule="evenodd" />
+						<path d="M10.833 12.334a.833.833 0 1 1-1.666 0 .833.833 0 0 1 1.666 0Z" />
+					</svg>
+					<span>Жалоба</span>
+				</a>
+				<div id="login" aria-hidden="true" class="popup">
+					<div class="popup__wrapper">
+						<div class="popup__content">
+							<span class="popup__title">Авторизация</span>
+							<button data-close type="button" class="popup__close">
+								<svg class="icon-24">
+									<use xlink:href="img/sprite.svg#close-big" />
+								</svg>
+							</button>
+							<form class="popup__form login">
+								<div class="popup__form-item">
+									<label for="email">Ваша почта или телефон </label>
+									<input type="email" id="email" name="email" placeholder="Введите почту или телефон" />
+								</div>
+								<div class="popup__form-item">
+									<label for="password">Пароль </label>
+									<input type="password" id="password" name="password" placeholder="Введите пароль" />
+									<button class="form__viewpass" type="button">
+										<svg class="icon-20">
+											<use xlink:href="img/sprite.svg#close-eye" />
+										</svg>
+									</button>
+								</div>
+								<button class="popup__submit btn btn-green" disabled type="submit">Продолжить</button>
+							</form>
+							<hr />
+							<div class="popup__footer">
+								<div class="popup__footer-block">
+									<span>Нет аккаунта?</span>
+									<a href="#" data-popup="#signup">Регистрация</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="signup" aria-hidden="true" class="popup">
+					<div class="popup__wrapper">
+						<div class="popup__content">
+							<span class="popup__title">Регистрация</span>
+							<button data-close type="button" class="popup__close">
+								<svg class="icon-24">
+									<use xlink:href="img/sprite.svg#close-big" />
+								</svg>
+							</button>
+							<form class="popup__form signup">
+								<div class="popup__form-item">
+									<label for="name">Никнейм </label>
+									<input type="text" id="name" name="name" placeholder="Придумайте никнейм" />
+								</div>
+								<div class="popup__form-item">
+									<label for="email">Ваша почта или телефон </label>
+									<input type="text" id="email" name="email" placeholder="Введите почту или телефон" />
+								</div>
+								<div class="popup__form-item">
+									<label for="password">Пароль </label>
+									<input type="password" id="password" name="password" placeholder="Придумайте пароль" />
+									<button class="form__viewpass" type="button">
+										<svg class="icon-20">
+											<use xlink:href="img/sprite.svg#close-eye" />
+										</svg>
+									</button>
+								</div>
+								<div class="popup__form-item">
+									<label for="password">Подтвердите пароль </label>
+									<input type="password" id="confirm-password" name="password" placeholder="Введите пароль еще раз" />
+									<button class="form__viewpass" type="button">
+										<svg class="icon-20">
+											<use xlink:href="img/sprite.svg#close-eye" />
+										</svg>
+									</button>
+								</div>
+								<div class="popup__form-accept">
+									<div class="checkbox">
+										<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" />
+										<label for="c_1" class="checkbox__label"><span class="checkbox__text">Я согласен с <a href="#">пользовательским соглашением</a> и
+												<a href="#">политикой конфиденциальности</a></span></label>
+									</div>
+								</div>
+								<button class="popup__submit btn btn-green" disabled type="submit">Продолжить</button>
+							</form>
+							<hr />
+							<div class="popup__footer">
+								<div class="popup__footer-block">
+									<span>Есть аккаунт?</span>
+									<a data-popup="#login" href="#">Войти</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="login-error" aria-hidden="true" class="popup">
+					<div class="popup__wrapper">
+						<div class="popup__content alert">
+							<div class="popup__image">
+								<img src="img/alert.svg" alt="alert" width="48" />
+							</div>
+							<span class="popup__info">Недостаточно средств для вывода.<br />
+								Пожалуйста, измените сумму</span>
+							<div class="popup__footer">
+								<button class="popup__submit success btn btn-green" data-close type="submit">
+									Понятно
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="login-success" aria-hidden="true" class="popup">
+					<div class="popup__wrapper">
+						<div class="popup__content info">
+							<div class="popup__image">
+								<img src="img/check.svg" alt="check" width="48" />
+							</div>
+							<span class="popup__info">Средства успешно<br />
+								выведены</span>
+							<div class="popup__footer">
+								<button class="popup__submit success btn btn-green" data-close type="submit">
+									Понятно
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="contacts-success" aria-hidden="true" class="popup">
+					<div class="popup__wrapper">
+						<div class="popup__content info">
+							<div class="popup__image">
+								<img src="img/check.svg" alt="check" width="48" />
+							</div>
+							<span class="popup__info">Сообщение успешно<br />
+								отправлено</span>
+							<div class="popup__footer">
+								<button class="popup__submit success btn btn-green" data-close type="submit">
+									Понятно
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="unsub" aria-hidden="true" class="popup">
+					<div class="popup__wrapper">
+						<div class="popup__content unsub">
+							<span class="popup__title">Отказаться от подписки на канал "Universal Studio Channel"?</span>
+							<button data-close type="button" class="popup__close">
+								<svg class="icon-24">
+									<use xlink:href="img/sprite.svg#close-big" />
+								</svg>
+							</button>
+							<div class="popup__footer">
+								<div class="popup__buttons">
+									<button class="btn-transparent" data-close="#unsub">Отмена</button>
+									<button class="btn btn-green">Отказаться от подписки</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="complaint" aria-hidden="true" class="popup">
+					<div class="popup__wrapper">
+						<div class="popup__content complaint">
+							<span class="popup__title">Причина жалобы</span>
+							<button data-close type="button" class="popup__close">
+								<svg class="icon-24">
+									<use xlink:href="img/sprite.svg#close-big" />
+								</svg>
+							</button>
+							<div class="complaint__wrapper">
+								<form>
+									<div class="complaint-item">
+										<input type="radio" name="complaint" value="sexual" id="sexual" />
+										<label for="sexual">
+											<span>Контент сексуального характера</span>
+											<svg class="icon-16" data-tippy-content="Материалы, пропагандирующие
+ненависть к отдельным лицам и группам лиц, а также содержащие угрозы целью запугивания">
+												<use xlink:href="img/sprite.svg#sm-faq" />
+											</svg>
+										</label>
+									</div>
+									<div class="complaint-item">
+										<input type="radio" name="complaint" value="agressive" id="agressive" />
+										<label for="agressive">
+											<span>Жестокие или отталкивающие сцены</span>
+											<svg class="icon-16" data-tippy-content="Материалы, пропагандирующие
+ненависть к отдельным лицам и группам лиц, а также содержащие угрозы целью запугивания">
+												<use xlink:href="img/sprite.svg#sm-faq" />
+											</svg>
+										</label>
+									</div>
+									<div class="complaint-item">
+										<input type="radio" name="complaint" value="offense" id="offense" />
+										<label for="offense">
+											<span>Оскорбления или проявления нетерпимости</span>
+											<svg class="icon-16" data-tippy-content="Материалы, пропагандирующие
+ненависть к отдельным лицам и группам лиц, а также содержащие угрозы целью запугивания">
+												<use xlink:href="img/sprite.svg#sm-faq" />
+											</svg>
+										</label>
+									</div>
+									<div class="complaint-item">
+										<input type="radio" name="complaint" value="bullying" id="bullying" />
+										<label for="bullying">
+											<span>Домогательства или издевательства</span>
+											<svg class="icon-16" data-tippy-content="Материалы, пропагандирующие
+ненависть к отдельным лицам и группам лиц, а также содержащие угрозы целью запугивания">
+												<use xlink:href="img/sprite.svg#sm-faq" />
+											</svg>
+										</label>
+									</div>
+									<div class="complaint-item">
+										<input type="radio" name="complaint" value="danger" id="danger" />
+										<label for="danger">
+											<span>Вредные или опасные действия</span>
+											<svg class="icon-16" data-tippy-content="Материалы, пропагандирующие
+ненависть к отдельным лицам и группам лиц, а также содержащие угрозы целью запугивания">
+												<use xlink:href="img/sprite.svg#sm-faq" />
+											</svg>
+										</label>
+									</div>
+									<div class="complaint-item">
+										<input type="radio" name="complaint" value="lie" id="lie" />
+										<label for="lie">
+											<span>Ложная информация</span>
+											<svg class="icon-16" data-tippy-content="Материалы, пропагандирующие
+ненависть к отдельным лицам и группам лиц, а также содержащие угрозы целью запугивания">
+												<use xlink:href="img/sprite.svg#sm-faq" />
+											</svg>
+										</label>
+									</div>
+									<div class="complaint-item">
+										<input type="radio" name="complaint" value="child-abuse" id="child-abuse" />
+										<label for="child-abuse">
+											<span>Жестокое обращение с детьми</span>
+											<svg class="icon-16" data-tippy-content="Материалы, пропагандирующие
+ненависть к отдельным лицам и группам лиц, а также содержащие угрозы целью запугивания">
+												<use xlink:href="img/sprite.svg#sm-faq" />
+											</svg>
+										</label>
+									</div>
+									<div class="complaint-item">
+										<input type="radio" name="complaint" value="terror" id="terror" />
+										<label for="terror">
+											<span>Пропаганда терроризма</span>
+											<svg class="icon-16" data-tippy-content="Материалы, пропагандирующие
+ненависть к отдельным лицам и группам лиц, а также содержащие угрозы целью запугивания">
+												<use xlink:href="img/sprite.svg#sm-faq" />
+											</svg>
+										</label>
+									</div>
+									<div class="complaint-item">
+										<input type="radio" name="complaint" value="spam" id="spam" />
+										<label for="spam">
+											<span>Спам или ложная информация</span>
+											<svg class="icon-16" data-tippy-content="Материалы, пропагандирующие
+ненависть к отдельным лицам и группам лиц, а также содержащие угрозы целью запугивания">
+												<use xlink:href="img/sprite.svg#sm-faq" />
+											</svg>
+										</label>
+									</div>
+									<div class="complaint-item">
+										<input type="radio" name="complaint" value="violation-rights" id="violation-rights" />
+										<label for="violation-rights">
+											<span>Нарушение моих прав</span>
+											<svg class="icon-16" data-tippy-content="Материалы, пропагандирующие
+ненависть к отдельным лицам и группам лиц, а также содержащие угрозы целью запугивания">
+												<use xlink:href="img/sprite.svg#sm-faq" />
+											</svg>
+										</label>
+									</div>
+									<div class="complaint-item">
+										<input type="radio" name="complaint" value="problems" id="problems" />
+										<label for="problems">
+											<span>Проблема с субтитрами</span>
+											<svg class="icon-16" data-tippy-content="Материалы, пропагандирующие
+ненависть к отдельным лицам и группам лиц, а также содержащие угрозы целью запугивания">
+												<use xlink:href="img/sprite.svg#sm-faq" />
+											</svg>
+										</label>
+									</div>
+								</form>
+							</div>
+							<div class="popup__footer">
+								<p>
+									Ваша жалоба обязательно будет рассмотрена. Если мы обнаружим нарушение правил сообщества,
+									то примем меры. В случае серьезных или неоднократных нарушений аккаунт пользователя может
+									быть заблокирован
+								</p>
+								<button class="btn btn-green">Отправить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</main>
+		</div>
+		<footer class="footer">
+			<div class="footer__container __container"></div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20230118003707"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230118003707" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="theme-color" content="#ffffff" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+	<div class="wrapper asyncImage" data-src="img/background.jpg">
+		<header class="header auth">
+			<div class="header__container __container">
+				<div class="head-left">
+					<img class="header__logo" src="img/logo.svg" alt="logo" />
+				</div>
+				<div class="search">
+					<form class="search__form">
+						<svg class="search__icon">
+							<use xlink:href="img/sprite.svg#search" />
+						</svg>
+						<input type="text" id="box" placeholder="Поиск" class="search__box" />
+						<svg class="icon-24 close">
+							<use xlink:href="img/sprite.svg#close-big" />
+						</svg>
+					</form>
+					<div class="search__results">
+						<ul class="search__results-list">
+							<li class="search__results-item">Танцы</li>
+							<li class="search__results-item">Танцы на ТНТ</li>
+							<li class="search__results-item">Танцы со звездами</li>
+							<li class="search__results-item">Танцевальная музыка</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="header__buttons">
+					<button class="btn btn-blue">Загрузить</button>
+				</div>
+				<div class="balance btn-blur">
+					<svg class="balance__icon icon-20" class="icon-16">
+						<use xlink:href="img/sprite.svg#wallet" />
+					</svg>
+					<span class="balance__text">Ваш баланс:</span>
+					<span class="balance__count">2 784₽</span>
+				</div>
+
+				<div class="header__avatar">
+					<div class="header__avatar-blur blur"></div>
+					<svg class="icon-24 avatar-arrow">
+						<use xlink:href="img/sprite.svg#down" />
+					</svg>
+					<img class="header__avatar-img" src="img/avatar.jpg" data-rjs="2" alt="avatar" />
+					<div class="menu-nav">
+						<ul class="menu-nav__list">
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#profile-menu" />
+									</svg>
+									<span>Профиль</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#wallet-svg" />
+									</svg>
+									<span>Кошелек</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#profile-check" />
+									</svg>
+									<span>Подписки</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#video-menu" />
+									</svg>
+									<span>Плейлисты</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#calender-menu" />
+									</svg>
+									<span>История</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#setting-menu" />
+									</svg>
+									<span>Настройки</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#faq-menu" />
+									</svg>
+									<span>Справка</a>
+								</a>
+							</li>
+							<hr />
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#logout-menu" />
+									</svg>
+									<span>Выйти</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="content__wrapper __container">
+			<aside class="left-container">
+				<div class="menu blur">
+					<ul class="menu__categories">
+						<li class="menu__elem menu__categories-item active">
+							<a href="../index.html">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#main" />
+								</svg>
+								<span class="menu__title">Главная</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item earn">
+							<a href="../pocket.html" class="btn btn-green btn-earn">
+								<img src="img/money.svg" alt="money" />
+								<span class="menu__title">Заработать</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<img src="img/fire.svg" alt="fire" />
+								<span class="menu__title">ТОП Видео</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#star" />
+								</svg>
+								<span class="menu__title">Подписки</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#clock" />
+								</svg>
+								<span class="menu__title">Последние</span>
+							</a>
+						</li>
+					</ul>
+					<hr class="menu__categories-separator" />
+					<ul class="menu__categories">
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#music" />
+								</svg>
+								<span class="menu__title">Клипы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#news" />
+								</svg>
+								<span class="menu__title">Новости</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#games" />
+								</svg>
+								<span class="menu__title">Игры</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#films" />
+								</svg>
+								<span class="menu__title">Фильмы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#serials" />
+								</svg>
+								<span class="menu__title">Сериалы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#faq" />
+								</svg>
+								<span class="menu__title">FAQ</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#contacts" />
+								</svg>
+								<span class="menu__title">Контакты</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#question" />
+								</svg>
+								<span class="menu__title">О нас</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<main class="page">
+				<section class="download section">
+					<h4>Загрузить видео</h4>
+					<div class="download__wrapper">
+						<form action="" class="form">
+							<label for="" class="form__container" id="upload-container">
+								<div class="create-channel-label">
+									<svg class="icon-20">
+										<use xlink:href="img/sprite.svg#download" />
+									</svg>
+									<span>Нажмите, чтобы загрузить видео, или перетащите сюда.</span>
+									<span>Любой файл размером до 1 Гб</span>
+								</div>
+								<input class="form__file" id="upload-files" type="file" accept="video/mp4,video/x-m4v,video/*" />
+							</label>
+							<div id="files-list-container"></div>
+						</form>
+						<form action="" class="create-channel-form">
+							<div class="signup__form-item">
+								<label for="name">Название </label>
+								<input id="name" name="name" placeholder="Введите название видео" />
+							</div>
+							<div class="signup__form-item">
+								<label for="text">Описание </label>
+								<textarea autocomplete="off" name="text" placeholder="Введите описание"></textarea>
+							</div>
+							<div data-spollers class="spollers">
+								<div class="spollers__item">
+									<label for="text">Категория </label>
+									<button type="button" data-spoller class="spollers__title">
+										<span>Выберите категорию</span>
+										<svg class="icon-24">
+											<use xlink:href="img/sprite.svg#down" />
+										</svg>
+									</button>
+									<div class="spollers__body">
+										<div class="profile__checkboxes">
+											<div class="checkbox dwnld">
+												<input id="travel" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="travel" class="checkbox__label"><span class="checkbox__text">Путешествия</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="food" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="food" class="checkbox__label"><span class="checkbox__text">Еда</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="nature" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="nature" class="checkbox__label"><span class="checkbox__text">Природа</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="music" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="music" class="checkbox__label"><span class="checkbox__text">Музыка</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="beauty" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="beauty" class="checkbox__label"><span class="checkbox__text">Красота</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="science" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="science" class="checkbox__label"><span class="checkbox__text">Наука</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="politic" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="politic" class="checkbox__label"><span class="checkbox__text">Политика</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="tecnic" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="tecnic" class="checkbox__label"><span class="checkbox__text">Техника</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="electricity" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="electricity" class="checkbox__label"><span class="checkbox__text">Электроника</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="it" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="it" class="checkbox__label"><span class="checkbox__text">IT</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="cinema" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="cinema" class="checkbox__label"><span class="checkbox__text">Киноиндустрия</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="finance" name="category" class="checkbox__input" type="radio" value="1" />
+												<label for="finance" class="checkbox__label"><span class="checkbox__text">Финансы</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<label for="text">Выбрать канал </label>
+									<button type="button" data-spoller class="spollers__title">
+										<span>Выберите канал</span>
+										<svg class="icon-24">
+											<use xlink:href="img/sprite.svg#down" />
+										</svg>
+									</button>
+									<div class="spollers__body">
+										<div class="profile__checkboxes">
+											<div class="checkbox dwnld">
+												<input id="trv" name="category2" class="checkbox__input" type="radio" value="1" />
+												<label for="trv" class="checkbox__label"><span class="checkbox__text">Путешествуй на 2 зарплаты</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="auto" name="category2" class="checkbox__input" type="radio" value="1" />
+												<label for="auto" class="checkbox__label"><span class="checkbox__text">Авторазбор</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="ux" name="category2" class="checkbox__input" type="radio" value="1" />
+												<label for="ux" class="checkbox__label"><span class="checkbox__text">Дизайн и жизнь</span></label>
+											</div>
+											<div class="checkbox dwnld">
+												<input id="family" name="category2" class="checkbox__input" type="radio" value="1" />
+												<label for="family" class="checkbox__label"><span class="checkbox__text">Семья и бизнес</span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<a href="#" class="btn-blue-transparent">+ Создать новый канал</a>
+								<div class="signup__form-item">
+									<label for="name">Теги </label>
+									<input id="name" name="name" placeholder="Введите теги" />
+								</div>
+							</div>
+							<button class="btn btn-green" data-popup="#contacts-success" disabled>Добавить</button>
+						</form>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer class="footer">
+			<div class="footer__container __container"></div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20230118003707"></script>
+
+</body>
+
+</html>

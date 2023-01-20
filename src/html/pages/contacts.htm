@@ -1,0 +1,68 @@
+<section class="contacts section">
+  <h4>Контакты</h4>
+  <div class="contacts__info">
+    <div class="contacts__info-item">
+      <svg class="icon-20">
+        <use xlink:href="img/sprite.svg#email" />
+      </svg>
+      <span>Email:</span>
+      <a href="mailto:#">tubux@gmail.com</a>
+    </div>
+    <div class="contacts__info-item">
+      <svg class="icon-20">
+        <use xlink:href="img/sprite.svg#phone" />
+      </svg>
+      <span>Телефон для справок:</span>
+      <a href="tel:#">+7 495 200 12 12</a>
+    </div>
+    <div class="contacts__info-item">
+      <svg class="icon-20">
+        <use xlink:href="img/sprite.svg#home" />
+      </svg>
+      <span>Юридический адрес:</span>
+      <a href="https://goo.gl/maps/XoqoRUUrzXH3tsmQ6"
+        >г. Москва, ул. Ленинградский пр-кт, 232д, оф. 412, 18 этаж</a
+      >
+    </div>
+  </div>
+  <hr />
+  <div class="contacts__feedback">
+    <span>Есть вопросы или предложения? Напишите нам!</span>
+    <div class="signup__form-block">
+      <form class="contacts__form">
+        <div class="signup__form-item">
+          <label for="name">Имя </label>
+          <input
+            data-required="name"
+            data-error="Не правильно введено имя"
+            type="name"
+            id="name"
+            name="name"
+            placeholder="Выберите ваше имя"
+          />
+        </div>
+        <div class="signup__form-item">
+          <label for="email">Email </label>
+          <input
+            data-error="Не правильно введён Email"
+            data-validate
+            data-required="email"
+            data-error="Введен не верный E-mail"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Выберите вашу почту"
+          />
+        </div>
+        <div class="signup__form-item">
+          <label for="text">Сообщение </label>
+          <textarea autocomplete="off" name="text" placeholder="Напишите что-нибудь"></textarea>
+        </div>
+        <button class="btn btn-green" type="submit" disabled data-popup="#contacts-success">
+          Отправить
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+@@include('../_contacts-popup.htm',{})

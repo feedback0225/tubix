@@ -1,0 +1,26 @@
+<button class="btn btn-orange" data-popup="#signup">Регистрация</button>
+<button class="btn btn-trnsprnt-green" data-popup="#login">Войти</button>
+<button class="signup__submit btn btn-blue" type="submit" data-popup="#login-success">
+  Зарегистрироваться (success)
+</button>
+<button class="signup__submit btn btn-blue" type="submit" data-popup="#login-error">
+  Зарегистрироваться (error)
+</button>
+<button class="btn btn-green" type="submit" data-popup="#contacts-success">Отправить</button>
+<button class="signup__submit btn btn-blue" type="submit" data-popup="#unsub">Вы подписаны</button>
+<a href="#" role="button" class="btn-error" data-popup="#complaint">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18">
+    <path d="M10.625 4.834a.625.625 0 1 0-1.25 0v5a.625.625 0 0 0 1.25 0v-5Z" />
+    <path
+      fill-rule="evenodd"
+      d="M11.949.456a4.792 4.792 0 0 0-3.898 0C7.275.802 6.649 1.463 6.002 2.38c-.645.913-1.367 2.163-2.3 3.78l-.034.058C2.735 7.833 2.013 9.084 1.545 10.1c-.47 1.018-.73 1.891-.64 2.736a4.792 4.792 0 0 0 1.948 3.375c.687.5 1.574.71 2.69.813 1.113.102 2.557.102 4.423.102h.068c1.866 0 3.31 0 4.423-.102 1.116-.102 2.003-.314 2.69-.813a4.792 4.792 0 0 0 1.949-3.376c.088-.844-.172-1.717-.641-2.735-.468-1.015-1.19-2.266-2.123-3.882l-.034-.059c-.933-1.616-1.655-2.866-2.3-3.779-.647-.916-1.273-1.577-2.05-1.923Zm-3.39 1.142a3.542 3.542 0 0 1 2.882 0c.46.205.926.64 1.536 1.502.608.86 1.302 2.061 2.255 3.713.954 1.651 1.647 2.853 2.088 3.81.442.959.585 1.579.532 2.08a3.542 3.542 0 0 1-1.44 2.496c-.409.297-1.017.483-2.07.58-1.048.096-2.435.096-4.342.096-1.907 0-3.294 0-4.343-.097-1.052-.096-1.66-.282-2.069-.58a3.542 3.542 0 0 1-1.44-2.494c-.053-.502.09-1.122.532-2.082.441-.956 1.134-2.158 2.088-3.81.953-1.65 1.647-2.851 2.255-3.712.61-.863 1.075-1.297 1.536-1.502Z"
+      clip-rule="evenodd"
+    />
+    <path d="M10.833 12.334a.833.833 0 1 1-1.666 0 .833.833 0 0 1 1.666 0Z" />
+  </svg>
+  <span>Жалоба</span>
+</a>
+@@include('../_login-popup.htm',{}) @@include('../_signup-popup.htm',{})
+@@include('../_login-error-popup.htm',{}) @@include('../_login-success-popup.htm',{})
+@@include('../_contacts-popup.htm',{}) @@include('../_unsub-popup.htm',{})
+@@include('../_complaint-popup.htm',{})

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230118003707" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="theme-color" content="#ffffff" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+	<div class="wrapper asyncImage" data-src="img/background.jpg">
+		<header class="header auth">
+			<div class="header__container __container">
+				<div class="head-left">
+					<img class="header__logo" src="img/logo.svg" alt="logo" />
+				</div>
+				<div class="search">
+					<form class="search__form">
+						<svg class="search__icon">
+							<use xlink:href="img/sprite.svg#search" />
+						</svg>
+						<input type="text" id="box" placeholder="Поиск" class="search__box" />
+						<svg class="icon-24 close">
+							<use xlink:href="img/sprite.svg#close-big" />
+						</svg>
+					</form>
+					<div class="search__results">
+						<ul class="search__results-list">
+							<li class="search__results-item">Танцы</li>
+							<li class="search__results-item">Танцы на ТНТ</li>
+							<li class="search__results-item">Танцы со звездами</li>
+							<li class="search__results-item">Танцевальная музыка</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="header__buttons">
+					<button class="btn btn-blue">Загрузить</button>
+				</div>
+				<div class="balance btn-blur">
+					<svg class="balance__icon icon-20" class="icon-16">
+						<use xlink:href="img/sprite.svg#wallet" />
+					</svg>
+					<span class="balance__text">Ваш баланс:</span>
+					<span class="balance__count">2 784₽</span>
+				</div>
+
+				<div class="header__avatar">
+					<div class="header__avatar-blur blur"></div>
+					<svg class="icon-24 avatar-arrow">
+						<use xlink:href="img/sprite.svg#down" />
+					</svg>
+					<img class="header__avatar-img" src="img/avatar.jpg" data-rjs="2" alt="avatar" />
+					<div class="menu-nav">
+						<ul class="menu-nav__list">
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#profile-menu" />
+									</svg>
+									<span>Профиль</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#wallet-svg" />
+									</svg>
+									<span>Кошелек</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#profile-check" />
+									</svg>
+									<span>Подписки</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#video-menu" />
+									</svg>
+									<span>Плейлисты</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#calender-menu" />
+									</svg>
+									<span>История</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#setting-menu" />
+									</svg>
+									<span>Настройки</span>
+								</a>
+							</li>
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#faq-menu" />
+									</svg>
+									<span>Справка</a>
+								</a>
+							</li>
+							<hr />
+							<li class="menu-nav__list-item">
+								<a href="#">
+									<svg class="icon-24">
+										<use xlink:href="img/sprite.svg#logout-menu" />
+									</svg>
+									<span>Выйти</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="content__wrapper __container">
+			<aside class="left-container">
+				<div class="menu blur">
+					<ul class="menu__categories">
+						<li class="menu__elem menu__categories-item active">
+							<a href="../index.html">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#main" />
+								</svg>
+								<span class="menu__title">Главная</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item earn">
+							<a href="../pocket.html" class="btn btn-green btn-earn">
+								<img src="img/money.svg" alt="money" />
+								<span class="menu__title">Заработать</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<img src="img/fire.svg" alt="fire" />
+								<span class="menu__title">ТОП Видео</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#star" />
+								</svg>
+								<span class="menu__title">Подписки</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#clock" />
+								</svg>
+								<span class="menu__title">Последние</span>
+							</a>
+						</li>
+					</ul>
+					<hr class="menu__categories-separator" />
+					<ul class="menu__categories">
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#music" />
+								</svg>
+								<span class="menu__title">Клипы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#news" />
+								</svg>
+								<span class="menu__title">Новости</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#games" />
+								</svg>
+								<span class="menu__title">Игры</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#films" />
+								</svg>
+								<span class="menu__title">Фильмы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#serials" />
+								</svg>
+								<span class="menu__title">Сериалы</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#faq" />
+								</svg>
+								<span class="menu__title">FAQ</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#contacts" />
+								</svg>
+								<span class="menu__title">Контакты</span>
+							</a>
+						</li>
+						<li class="menu__elem menu__categories-item">
+							<a href="#">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#question" />
+								</svg>
+								<span class="menu__title">О нас</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<main class="page">
+				<section class="main-section">
+					<section class="vid-info blur main__wrapper">
+						<div class="vid-info__view">
+							<img class="vid-info__img" src="img/banner.jpg" data-rjs="2" alt="vid-info" />
+						</div>
+						<div class="vid-info__info">
+							<span class="vid-info__category btn-blur">TV Show</span>
+							<h2>Born to smile!</h2>
+							<div class="vid-info__about">
+								<div class="vid-info__about-item">
+									<svg class="icon-16">
+										<use xlink:href="img/sprite.svg#outline" />
+									</svg>
+									<span class="vid-info__about-text">126 часов</span>
+								</div>
+								<div class="vid-info__about-item">
+									<svg class="icon-16">
+										<use xlink:href="img/sprite.svg#folder" />
+									</svg>
+									<span class="vid-info__about-text">8 сезонов</span>
+								</div>
+								<div class="vid-info__about-item">
+									<svg class="icon-16">
+										<use xlink:href="img/sprite.svg#outline16" />
+									</svg>
+									<span class="vid-info__about-text">Больше 20 000 000 просмотров</span>
+								</div>
+							</div>
+							<p>
+								Стратегический рыночный план однородно искажает медиамикс. Рейтинг, суммируя приведенные
+								примеры, отражает формирование.
+							</p>
+						</div>
+					</section>
+					<nav class="category-nav">
+						<label class="category-title">TOP Videos
+							<img src="img/fire.svg" alt="icon" />
+						</label>
+						<div class="category-play category-opt">
+							<a href="#" class="btn-play-all">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#play" />
+								</svg>
+								<span class="category-text">PLAY ALL</span>
+							</a>
+						</div>
+					</nav>
+					<div class="slider__wrapper">
+						<div data-id="top-videos" class="swiper videoSwiper top-videos" id="top-videos">
+							<div class="swiper-wrapper"></div>
+						</div>
+						<div class="swiper-button-next videoSwiper-next swiper-button-next-top-videos">
+							<svg>
+								<use xlink:href="img/sprite.svg#right" />
+							</svg>
+						</div>
+						<div class="swiper-button-prev videoSwiper-prev swiper-button-prev-top-videos">
+							<svg>
+								<use xlink:href="img/sprite.svg#left" />
+							</svg>
+						</div>
+					</div>
+
+					<nav class="category-nav">
+						<label class="category-title">New video</label>
+						<div class="category-play category-opt">
+							<a href="#" class="btn-play-all">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#play" />
+								</svg>
+								<span class="category-text">PLAY ALL</span>
+							</a>
+						</div>
+					</nav>
+					<div class="slider__wrapper">
+						<div data-id="new-videos" class="swiper videoSwiper new-videos" id="new-videos">
+							<div class="swiper-wrapper"></div>
+						</div>
+						<div class="swiper-button-next videoSwiper-next swiper-button-next-new-videos">
+							<svg>
+								<use xlink:href="img/sprite.svg#right" />
+							</svg>
+						</div>
+						<div class="swiper-button-prev videoSwiper-prev swiper-button-prev-new-videos">
+							<svg>
+								<use xlink:href="img/sprite.svg#left" />
+							</svg>
+						</div>
+					</div>
+					<nav class="category-nav">
+						<label class="category-title">Girls</label>
+						<div class="category-play category-opt">
+							<a href="#" class="btn-play-all">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#play" />
+								</svg>
+								<span class="category-text">PLAY ALL</span>
+							</a>
+						</div>
+					</nav>
+					<div class="slider__wrapper">
+						<div data-id="girls-videos" class="swiper videoSwiper girls-videos" id="girls-videos">
+							<div class="swiper-wrapper"></div>
+						</div>
+						<div class="swiper-button-next videoSwiper-next swiper-button-next-girls-videos">
+							<svg>
+								<use xlink:href="img/sprite.svg#right" />
+							</svg>
+						</div>
+						<div class="swiper-button-prev videoSwiper-prev swiper-button-prev-girls-videos">
+							<svg>
+								<use xlink:href="img/sprite.svg#left" />
+							</svg>
+						</div>
+					</div>
+					<nav class="category-nav">
+						<label class="category-title">Games</label>
+						<div class="category-play category-opt">
+							<a href="#" class="btn-play-all">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#play" />
+								</svg>
+								<span class="category-text">PLAY ALL</span>
+							</a>
+						</div>
+					</nav>
+
+					<div class="slider__wrapper">
+						<div data-id="games-videos" class="swiper videoSwiper games-videos" id="games-videos">
+							<div class="swiper-wrapper"></div>
+						</div>
+						<div class="swiper-button-next videoSwiper-next swiper-button-next-games-videos">
+							<svg>
+								<use xlink:href="img/sprite.svg#right" />
+							</svg>
+						</div>
+						<div class="swiper-button-prev videoSwiper-prev swiper-button-prev-games-videos">
+							<svg>
+								<use xlink:href="img/sprite.svg#left" />
+							</svg>
+						</div>
+					</div>
+
+					<nav class="category-nav">
+						<label class="category-title">Films</label>
+						<div class="category-play category-opt">
+							<a href="#" class="btn-play-all">
+								<svg class="icon-20">
+									<use xlink:href="img/sprite.svg#play" />
+								</svg>
+								<span class="category-text">PLAY ALL</span>
+							</a>
+						</div>
+					</nav>
+					<div class="slider__wrapper">
+						<div data-id="films-videos" class="swiper videoSwiper films-videos" id="films-videos">
+							<div class="swiper-wrapper"></div>
+						</div>
+						<div class="swiper-button-next videoSwiper-next swiper-button-next-films-videos">
+							<svg>
+								<use xlink:href="img/sprite.svg#right" />
+							</svg>
+						</div>
+						<div class="swiper-button-prev videoSwiper-prev swiper-button-prev-films-videos">
+							<svg>
+								<use xlink:href="img/sprite.svg#left" />
+							</svg>
+						</div>
+					</div>
+					<section class="seo blur">
+						<h1>Что такое Tubix.com?</h1>
+						<p>
+							Процесс стратегического планирования спорадически тормозит системный анализ. Таргетирование,
+							анализируя результаты рекламной кампании, спорадически специфицирует экспериментальный пул
+							лояльных изданий. Более того, стратегическое планирование экономит коллективный стратегический
+							рыночный план. Стратегический рыночный план однородно искажает медиамикс. Ретроконверсия
+							национального наследия непосредственно экономит конвергентный сегмент рынка. Рейтинг, суммируя
+							приведенные примеры, отражает формирование имиджа.
+						</p>
+					</section>
+
+				</section>
+			</main>
+		</div>
+		<footer class="footer">
+			<div class="footer__container __container"></div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20230118003707"></script>
+
+</body>
+
+</html>

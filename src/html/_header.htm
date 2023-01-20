@@ -1,0 +1,14 @@
+<header class="header">
+  <div class="header__container __container">
+    <div class="head-left">
+      <img class="header__logo" src="../img/logo.svg" alt="logo" />
+    </div>
+    @@include('_search.htm',{}) @@include('_balance.htm',{})
+    <div class="header__buttons">
+      <button class="btn btn-blue">Загрузить</button>
+      <button class="btn btn-orange" data-popup="#signup">Регистрация</button>
+      <button class="btn btn-trnsprnt-green" data-popup="#login">Войти</button>
+    </div>
+  </div>
+  @@include('_login-popup.htm',{}) @@include('_signup-popup.htm',{})
+</header>

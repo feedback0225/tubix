@@ -1,0 +1,107 @@
+.earn {
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 18px;
+    &:first-child {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    & h4,
+    & h5 {
+      margin-right: auto;
+    }
+    & h5 {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    &-button {
+      border-radius: 50px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 6px 12px;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      cursor: pointer;
+      & svg {
+        fill: #fff;
+      }
+    }
+  }
+  & p {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  &__table {
+    padding-bottom: 40px;
+    & table {
+      width: 100%;
+      padding: 16px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.1);
+    }
+    & th {
+      font-weight: 500;
+      font-size: 14px;
+      opacity: 0.6;
+      text-align: left;
+    }
+    & td {
+      padding-top: 16px;
+      &:first-child {
+        opacity: 0.6;
+      }
+      &:last-child {
+        color: #21e021;
+      }
+    }
+    & hr {
+      height: 1px;
+      background: #fff;
+      opacity: 0.12;
+    }
+    &.green {
+      & td {
+        color: #21e021;
+      }
+    }
+  }
+}
+
+.copy {
+  &__component {
+    position: relative;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: 60px;
+    padding: 14px 20px;
+    gap: 23px;
+    display: flex;
+    align-items: center;
+  }
+  &__tooltip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 50px;
+    position: absolute;
+    visibility: hidden;
+    top: -20px;
+    right: 5%;
+    transition: 1s all;
+    &.active {
+      visibility: visible;
+      transition: 1s all;
+    }
+  }
+}

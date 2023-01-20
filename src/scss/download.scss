@@ -1,0 +1,90 @@
+.download {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    & .form__container {
+      padding: 80px 24px 32px 24px;
+    }
+  }
+  & .spollers__item {
+    background: none;
+    & button {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 5px 0 0 0;
+    }
+    & label {
+      font-weight: 500;
+      font-size: 14px;
+      margin-bottom: 5px;
+      opacity: 0.6;
+    }
+    & button._spoller-active {
+      border-radius: 1rem 1rem 0 0;
+    }
+  }
+  & .btn-blue-transparent {
+    margin-left: auto;
+  }
+  & .signup__form-item {
+    &:last-child {
+      margin-top: 0px;
+    }
+  }
+  & .profile__checkboxes {
+    flex-direction: column;
+    margin-bottom: 0px;
+    & .checkbox {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      & span {
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 0.4;
+        color: #fff;
+      }
+      &._form-focus span {
+        opacity: 1;
+      }
+    }
+    & label {
+      margin-bottom: 0px;
+    }
+  }
+  & .spollers__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  & button {
+    transition: 1s all;
+    & span {
+      font-weight: 600;
+      font-size: 14px;
+    }
+    &._spoller-active {
+      border-radius: 1rem 1rem 0 0;
+      transition: 0.5s all;
+      & svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  & svg {
+    transition: 0.5s all;
+  }
+}
+
+#files-list-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  & svg {
+    fill: #ff5353;
+    cursor: pointer;
+  }
+  & span {
+    pointer-events: none;
+  }
+}

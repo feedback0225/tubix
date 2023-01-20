@@ -1,0 +1,26 @@
+.video-control {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  &__title {
+    font-size: 1.5rem;
+    word-spacing: 0.1em;
+    font-weight: 600;
+  }
+  &__panel {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__sortby {
+    font-size: 0.875rem;
+    opacity: 0.4;
+    margin-left: 28px;
+    &:nth-child(2) {
+      margin-left: 12px;
+    }
+    &.active {
+      opacity: 1;
+    }
+  }
+}

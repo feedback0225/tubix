@@ -1,0 +1,28 @@
+.category {
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+  }
+  &-title {
+    font-size: 1.5rem;
+    word-spacing: 0.1em;
+    font-weight: 600;
+  }
+  &-play {
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: 1s all;
+    &:hover {
+      border-bottom: 1px solid #fff;
+    }
+    & a {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &-text {
+    font-size: 1rem;
+    margin-left: 5px;
+  }
+}

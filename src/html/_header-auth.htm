@@ -1,0 +1,20 @@
+<header class="header auth">
+  <div class="header__container __container">
+    <div class="head-left">
+      <img class="header__logo" src="img/logo.svg" alt="logo" />
+    </div>
+    @@include('_search.htm',{})
+    <div class="header__buttons">
+      <button class="btn btn-blue">Загрузить</button>
+    </div>
+    @@include('_balance.htm',{})
+    <div class="header__avatar">
+      <div class="header__avatar-blur blur"></div>
+      <svg class="icon-24 avatar-arrow">
+        <use xlink:href="img/sprite.svg#down" />
+      </svg>
+      <img class="header__avatar-img" src="img/avatar.jpg" data-rjs="2" alt="avatar" />
+      @@include('_menu-nav.htm',{})
+    </div>
+  </div>
+</header>

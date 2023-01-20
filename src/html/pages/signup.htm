@@ -1,0 +1,72 @@
+<section class="signup section">
+  <h4>Регистрация</h4>
+  <div class="signup__form-block">
+    <form class="signup__form">
+      <div class="signup__form-item">
+        <label for="name">Никнейм </label>
+        <input
+          data-required="name"
+          type="name"
+          id="name"
+          name="name"
+          placeholder="Придумайте никнейм"
+        />
+      </div>
+      <div class="signup__form-item">
+        <label for="email">Email </label>
+        <input
+          data-required="email"
+          data-error="Введен не верный E-mail"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Введите ваш email"
+          data-validate
+        />
+      </div>
+      <div class="signup__form-item">
+        <label for="password">Пароль </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Придумайте пароль"
+          data-validate
+        />
+        <button class="form__viewpass" type="button">
+          <svg class="icon-20">
+            <use xlink:href="img/sprite.svg#close-eye" />
+          </svg>
+        </button>
+      </div>
+      <div class="signup__form-item">
+        <label for="password">Подтвердите пароль </label>
+        <input
+          type="password"
+          id="confirm-password"
+          name="password"
+          placeholder="Введите пароль еще раз"
+          data-validate
+        />
+        <button class="form__viewpass" type="button">
+          <svg class="icon-20">
+            <use xlink:href="img/sprite.svg#close-eye" />
+          </svg>
+        </button>
+      </div>
+      <div class="signup__form-item checkbox">
+        <input
+          class="checkbox__input"
+          data-required="checkbox"
+          type="checkbox"
+          id="checkbox"
+          name="checkbox"
+        />
+        <label class="checkbox__label" for="checkbox"
+          >Я принимаю правила использования сервисом
+        </label>
+      </div>
+      <button class="signup__submit btn btn-blue" disabled type="submit">Зарегистрироваться</button>
+    </form>
+  </div>
+</section>

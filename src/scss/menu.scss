@@ -1,0 +1,106 @@
+.menu {
+  width: 200px;
+  padding: 24px 0 38px 0;
+  margin-bottom: 24px;
+  .active {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 48px;
+      background: #5c8aff;
+      box-shadow: 2px 0px 0px #2b60e7;
+      border-radius: 0px 20px 20px 0px;
+      top: 0;
+      left: 0;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      width: 176px;
+      height: 40px;
+      background: linear-gradient(
+        90deg,
+        rgba(92, 138, 255, 0.8) 0%,
+        rgba(92, 138, 255, 0.192) 100%
+      );
+      box-shadow: 0px 0px 10px rgb(0 255 240 / 12%);
+      backdrop-filter: blur(2.5px);
+      border-radius: 0px 40px 40px 0px;
+      top: 4px;
+      left: 10px;
+    }
+  }
+  &__elem {
+    z-index: 1;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    & a {
+      display: flex;
+      align-items: center;
+      width: 150px;
+      padding: 8px 16px;
+      border-radius: 12px;
+      &:not(.btn-earn, .active a):hover {
+        color: #21e021;
+        background: linear-gradient(
+          90deg,
+          rgba(92, 138, 255, 0.8) 0%,
+          rgba(92, 138, 255, 0.192) 100%
+        );
+        box-shadow: 0px 0px 10px rgba(0, 255, 240, 0.12);
+        transition: 1s all;
+      }
+    }
+    & svg {
+      z-index: 1;
+    }
+    & .btn-green {
+      padding-left: 16px;
+    }
+  }
+  &__title {
+    margin-left: 12px;
+    z-index: 1;
+  }
+  &__categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-separator {
+      margin: 23px auto;
+      width: 152px;
+      height: 1px;
+      background-color: #ffffff;
+      opacity: 0.12;
+    }
+    &-item {
+      // margin-bottom: 16px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      & .btn {
+        padding: 14px 16px;
+        border-radius: 56px;
+        margin-top: 13px;
+        background: #21e021;
+      }
+      &.active:hover {
+        color: #21e021;
+        transition: 1s all;
+      }
+    }
+  }
+}
