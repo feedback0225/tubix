@@ -20,7 +20,18 @@
   </svg>
   <span>Жалоба</span>
 </a>
+
+<button class="btn btn-orange" data-popup="#donate-success">Донат успешно отправлен</button>
+<button class="btn btn-blue" data-popup="#donate">Донат форма</button>
+<button class="btn btn-blue" data-popup="#donate-error">Донат форма недостаточно средств</button>
+<button class="btn btn-blue" data-popup="#share">Поделиться</button>
+
+
 @@include('../_login-popup.htm',{}) @@include('../_signup-popup.htm',{})
 @@include('../_login-error-popup.htm',{}) @@include('../_login-success-popup.htm',{})
 @@include('../_contacts-popup.htm',{}) @@include('../_unsub-popup.htm',{})
 @@include('../_complaint-popup.htm',{})
+@@include('../_donate-success-popup.htm',{})
+@@include('../_donate-popup.htm',{})
+@@include('../_donate-popup-no-money.htm',{})
+@@include('../_share-popup.htm',{})

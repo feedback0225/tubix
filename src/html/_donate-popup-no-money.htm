@@ -1,0 +1,39 @@
+<div id="donate-error" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content popup__content_donate">
+      <p class="popup__title popup__title_donate">Донат</p>
+      <button data-close type="button" class="popup__close">
+        <svg class="icon-24">
+          <use xlink:href="img/sprite.svg#close-big" />
+        </svg>
+      </button>
+
+      <form class="popup__form popup__form_donate">
+        <div class="popup__form-item popup__form-item_donate popup__form-item_donate-form-error">
+          <label class="popup__label" for="donate-amount">Сумма</label>
+          <input id="donate-amount" name="donate-amount" type="number" placeholder="50&#8381"
+            data-placeholder="Ваша сумма доната">
+          <p class="popup__form-error">Недостаточно средств</p>
+        </div>
+        <div class="popup__form-item popup__select">
+          <label class="popup__label" for="card-type">Способ вывода</label>
+          <select class="popup__select-donate" id="card-type" name="card-type">
+            <option value="visa" selected="">VISA</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="maestro">Maestro</option>
+            <option value="visagold">Visa Gold</option>
+          </select>
+
+        </div>
+      </form>
+
+      <div class="popup__buttons popup__buttons_donate">
+        <div class="popup__buttons-wrapper">
+          <button class="btn-transparent" data-close="#unsub">Отмена</button>
+        </div>
+        <button class="btn btn-green btn-green_donate">Оплатить</button>
+      </div>
+
+    </div>
+  </div>
+</div>

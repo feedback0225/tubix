@@ -32,7 +32,8 @@
       0px 16px 26px rgba(43, 96, 231, 0.38);
     padding: 14.4px 37px;
     &:hover {
-      box-shadow: 0px 2px 40px $btnColor, 0px 6px 5px rgba(0, 0, 0, 0.13), 0px 16px 36px $btnColor;
+      box-shadow: 0px 2px 40px $btnColor, 0px 6px 5px rgba(0, 0, 0, 0.13),
+        0px 16px 36px $btnColor;
       text-shadow: 0 0 10px $btnTextColor;
     }
   }
@@ -40,11 +41,13 @@
     $btnColor: #f7791d;
     $btnTextColor: #000;
     background: linear-gradient(274.3deg, $btnColor 9.64%, #ffe328 98.24%);
-    box-shadow: 0px 2px 0px #ff8125, 0px 6px 5px rgba(0, 0, 0, 0.13), 0px 16px 26px $btnColor;
+    box-shadow: 0px 2px 0px #ff8125, 0px 6px 5px rgba(0, 0, 0, 0.13),
+      0px 16px 26px $btnColor;
     padding: 14.4px 31px;
     max-width: 160px;
     &:hover {
-      box-shadow: 0px 2px 40px $btnColor, 0px 6px 5px rgba(0, 0, 0, 0.13), 0px 16px 36px $btnColor;
+      box-shadow: 0px 2px 40px $btnColor, 0px 6px 5px rgba(0, 0, 0, 0.13),
+        0px 16px 36px $btnColor;
     }
   }
   &-trnsprnt-green {
@@ -53,7 +56,8 @@
     color: #21e021;
     padding: 13.6px 27px;
     &:hover {
-      box-shadow: 0px 2px 40px #21e021, 0px 6px 5px rgba(0, 0, 0, 0.13), 0px 16px 36px #21e021;
+      box-shadow: 0px 2px 40px #21e021, 0px 6px 5px rgba(0, 0, 0, 0.13),
+        0px 16px 36px #21e021;
     }
   }
   &-green {
@@ -63,8 +67,15 @@
     background: $btnColor;
     box-shadow: 0px 2px 0px #10ad10, 0px 16px 36px rgba(16, 173, 16, 0.6);
     padding: 14px 0;
+    &_donate {
+      width: 280px;
+    }
+    &_donate-success {
+      padding: 15px 0;
+    }
     &:hover {
-      box-shadow: 0px 2px 40px $btnColor, 0px 6px 5px rgba(0, 0, 0, 0.13), 0px 16px 36px $btnColor;
+      box-shadow: 0px 2px 40px $btnColor, 0px 6px 5px rgba(0, 0, 0, 0.13),
+        0px 16px 36px $btnColor;
       // text-shadow: 0px 2px 12px rgba(16, 173, 16, 0.8);
     }
   }
@@ -87,6 +98,9 @@
     &:hover {
       text-decoration: underline;
     }
+    &_share {
+      margin: 0 auto;
+    }
   }
   &-yellow {
     background: linear-gradient(274.3deg, #f7791d 9.64%, #ffe328 98.24%);
@@ -100,7 +114,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    fill: '#FF5353';
+    fill: "#FF5353";
     & svg {
       fill: #ff5353;
     }
@@ -128,6 +142,10 @@ button {
 }
 
 .icon {
+  &-32 {
+    width: 32px;
+    height: 32px;
+  }
   &-20 {
     width: 20px;
     height: 20px;
@@ -156,7 +174,7 @@ svg {
 
 .profile__checkboxes .checkbox,
 .signup__form-item.checkbox {
-  & input[type='checkbox'] {
+  & input[type="checkbox"] {
     opacity: 0;
     position: absolute;
   }
@@ -170,22 +188,22 @@ svg {
     user-select: none;
   }
   & label:before {
-    content: '';
+    content: "";
     display: inline-block;
     width: 17px;
     height: 18px;
     position: absolute;
     left: 0;
     bottom: 1px;
-    background: url('../img/checkbox2.png') 0 0 no-repeat;
+    background: url("../img/checkbox2.png") 0 0 no-repeat;
   }
-  & input[type='checkbox']:checked + label:before {
-    background: url('../img/checkbox3.png') 0 0 no-repeat;
+  & input[type="checkbox"]:checked + label:before {
+    background: url("../img/checkbox3.png") 0 0 no-repeat;
     .complaint-item {
       opacity: 1;
     }
   }
-  & input[type='checkbox']:checked + label {
+  & input[type="checkbox"]:checked + label {
     opacity: 1;
     & span {
       opacity: 1;
@@ -194,12 +212,12 @@ svg {
       opacity: 1;
     }
   }
-  & input[type='checkbox'] + label {
+  & input[type="checkbox"] + label {
     &:hover {
       opacity: 1;
     }
   }
-  & input[type='radio']:disabled + label:before {
+  & input[type="radio"]:disabled + label:before {
     filter: grayscale(100%);
   }
 }
@@ -210,7 +228,7 @@ svg {
 
 .checkbox.dwnld,
 .complaint-item {
-  & input[type='radio'] {
+  & input[type="radio"] {
     opacity: 0;
     position: absolute;
   }
@@ -224,24 +242,24 @@ svg {
     user-select: none;
   }
   & label:before {
-    content: '';
+    content: "";
     display: inline-block;
     width: 17px;
     height: 18px;
     position: absolute;
     left: 0;
     bottom: 1px;
-    background: url('../img/checkbox.png') 0 0 no-repeat;
+    background: url("../img/checkbox.png") 0 0 no-repeat;
     background-size: contain;
   }
-  & input[type='radio']:checked + label:before {
-    background: url('../img/checkbox1.png') 0 0 no-repeat;
+  & input[type="radio"]:checked + label:before {
+    background: url("../img/checkbox1.png") 0 0 no-repeat;
     background-size: contain;
     .complaint-item {
       opacity: 1;
     }
   }
-  & input[type='radio']:checked + label {
+  & input[type="radio"]:checked + label {
     opacity: 1;
     & span {
       opacity: 1;
@@ -250,12 +268,12 @@ svg {
       opacity: 1;
     }
   }
-  & input[type='radio'] + label {
+  & input[type="radio"] + label {
     &:hover {
       opacity: 1;
     }
   }
-  & input[type='radio']:disabled + label:before {
+  & input[type="radio"]:disabled + label:before {
     filter: grayscale(100%);
   }
 }
