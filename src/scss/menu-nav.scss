@@ -7,7 +7,10 @@
   border-radius: 24px;
   right: 2%;
   opacity: 0;
-  backdrop-filter: blur(76px);
+  // !  уменьшил размытость подложки в меню и добавил свойство для safari
+  // backdrop-filter: blur(76px);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   z-index: -1;
   top: 80%;
   &__list {
