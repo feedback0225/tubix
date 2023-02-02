@@ -63,6 +63,9 @@
   }
   &__logo {
     padding-left: 25px;
+    &_mars {
+      padding-left: 0;
+    }
   }
   &__buttons {
     display: flex;
@@ -105,9 +108,9 @@
   & .header__buttons {
     width: auto;
   }
-  & .search {
-    // width: 38%;
-  }
+  // & .search {
+  //   width: 38%;
+  // }
 }
 
 .avatar-arrow {
